@@ -15,7 +15,13 @@ python_version = "3.6"
 "psycopg2-binary" = "*"
 django-heroku = "*"
 gunicorn = "*"
-
+django-rest-api = "*"
+djangorestframework = "*"
+python-decouple = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+pusher = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
