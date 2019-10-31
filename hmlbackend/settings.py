@@ -42,10 +42,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
-    'django.contrib.sites',
     'allauth',
     'allauth.account',
     'rest_auth.registration',
+    'hml',
 ]
 
 MIDDLEWARE = [
@@ -114,6 +114,7 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
+SITE_ID=1
 
 # Change 'default' database configuration with $DATABASE_URL.
 DATABASES['default'].update(dj_database_url.config(conn_max_age=500, ssl_require=True))
